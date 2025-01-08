@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family: 'badg';
+    src: url('../fonte/BAD_GRUNGE.ttf') format("opentype");
+
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+.main-width
+{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#90d391,20%,#7DB17E);
+    position: relative;
+}
+.hero header .logo h2 a{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #292F29;
+    margin-bottom: 10px;
+}
+.hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #292F29;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid #292F29;
+}
+nav ul li.active a{
+    border-bottom: 2px solid #292F29;
+}
+nav ul li.btn a{
+    background: transparent;
+    color: #292F29;
+    border: 1px solid #292F29;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid #292F29;
+    color: #76DB77;
+    background: #292F29;
+    transition: .4s;
+}
+.content{
+    padding-top:30px;
+}
+.content .main-text{
+    position:relative;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+.content .main-text h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #292F29;
+    margin-top: 10px;;
+}
+.content .main-text h1{
+    display: inline-block;
+    font-size: 100px;
+    line-height: 1;
+    color: #76DB77;
+    background-color: #292F29;
+    border: 1px solid #1cdd1c;
+    padding: 9px 25px;
+    border-radius: 20px;
+    margin: 0px 0px 45px;
+    font-family: 'badg';
+}
+.content .main-text p{
+    max-width: 100%;
+    width: 480px;
+    color: #292F29;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: #76DB77;
+    background-color: #292F29;
+    border: 1px solid #1cdd1c;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.content .main-text a:hover{
+    transform: scale(1.2);
+    border: 2px solid #292F29;
+    background: transparent;
+    color: #292F29;
+    transition: .4s;
+}
+.content .social{
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.content .social a{
+    display: inline-block;
+    color: #292F29;
+    margin-right: 25px;
+    font-size: 24px;
+}
+.content .social a:hover{
+    transform: scale(1.5);
+    transition: .4s;
+    color: #0f110f;
+}
