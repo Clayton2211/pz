@@ -47,11 +47,12 @@ body{
 nav ul li{
     list-style: none;
     display: inline-block;
+    margin: 1px;
 }
 nav ul li a{
     text-decoration: none;
     color: #292F29;
-    margin-left: 60px;
+    margin-left: 20px;
     font-size: 15px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
@@ -73,7 +74,7 @@ nav ul li.btn a{
     line-height: 1.4;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 nav ul li.btn:hover a{
     border: 1px solid #292F29;
@@ -97,7 +98,7 @@ nav ul li.btn:hover a{
 }
 .content .main-text h1{
     display: inline-block;
-    font-size: 100px;
+    font-size: 70px;
     line-height: 1;
     color: #76DB77;
     background-color: #292F29;
@@ -151,3 +152,5 @@ nav ul li.btn:hover a{
     transition: .4s;
     color: #0f110f;
 }
+
+@media screen and (max-width: 1000px)
