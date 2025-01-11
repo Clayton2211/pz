@@ -27,16 +27,21 @@ body{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: radial-gradient(#90d391,20%,#7DB17E);
+    background: radial-gradient(#7FA087,#C3F5A4);
     position: relative;
 }
 .hero header .logo h2 a{
-    display: block;
-    font-size: 32px;
-    font-weight: 600;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 1;
+    color: #76DB77;
+    background-color: #2E3C26;
+    border: 1px solid #A3F5B7;
+    padding: 9px 25px;
+    border-radius: 20px;
+    margin: 0px 0px 45px;
+    font-family: 'badg';
     text-decoration: none;
-    color: #292F29;
-    margin-bottom: 10px;
 }
 .hero header{
     display: flex;
@@ -47,13 +52,13 @@ body{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 1px;
+    margin: 10px;
 }
 nav ul li a{
     text-decoration: none;
     color: #292F29;
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 0px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: .4s;
@@ -98,15 +103,14 @@ nav ul li.btn:hover a{
 }
 .content .main-text h1{
     display: inline-block;
-    font-size: 70px;
+    font-size: 55px;
     line-height: 1;
     color: #76DB77;
-    background-color: #292F29;
-    border: 1px solid #1cdd1c;
+    background-color: #2E3C26;
+    border: 1px solid #A3F5B7;
     padding: 9px 25px;
     border-radius: 20px;
     margin: 0px 0px 45px;
-    font-family: 'badg';
 }
 .content .main-text p{
     max-width: 100%;
@@ -152,5 +156,41 @@ nav ul li.btn:hover a{
     transition: .4s;
     color: #0f110f;
 }
+.image{
+    position: absolute;
+    width: 90%;
+    height: 65%;
+    bottom: 0;
+    right: 15%;
+    text-align: right;
+}
+.image img{
+    height: 90%;
+}
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1020px){
+    .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .hero header .logo h2 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #76DB77;
+        margin: 10px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
