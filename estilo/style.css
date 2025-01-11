@@ -39,7 +39,7 @@ body{
     border: 1px solid #A3F5B7;
     padding: 9px 25px;
     border-radius: 20px;
-    margin: 0px 0px 45px;
+    margin: 0px 0px 15px;
     font-family: 'badg';
     text-decoration: none;
 }
@@ -117,8 +117,8 @@ nav ul li.btn:hover a{
     width: 480px;
     color: #292F29;
     line-height: 1.8;
-    font-size: 15px;
-    margin-bottom: 50px;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
 .content .main-text a{
     display: inline-block;
@@ -142,7 +142,7 @@ nav ul li.btn:hover a{
 .content .social{
     position: relative;
     z-index: 2;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 40px;
 }
 .content .social a{
