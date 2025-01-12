@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+@charset "UTF-8";
 
 @font-face {
     font-family: 'badg';
@@ -27,7 +28,7 @@ body{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: radial-gradient(#7FA087,#C3F5A4);
+    background: radial-gradient(#3f612a,#242c26);
     position: relative;
 }
 .hero header .logo h2 a{
@@ -41,7 +42,7 @@ body{
     border-radius: 20px;
     margin: 0px 0px 15px;
     font-family: 'badg';
-    text-decoration: none;
+    text-decoration: none; 
 }
 .hero header{
     display: flex;
@@ -56,7 +57,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #292F29;
+    color: #76DB77;
     margin-left: 0px;
     font-size: 20px;
     font-weight: 600;
@@ -65,15 +66,15 @@ nav ul li a{
 }
 nav ul li:not(:last-child) a:hover,
 nav ul li:not(:last-child) a:focus{
-    border-bottom: 2px solid #292F29;
+    border-bottom: 2px solid #76DB77;
 }
 nav ul li.active a{
-    border-bottom: 2px solid #292F29;
+    border-bottom: 2px solid #76DB77;
 }
 nav ul li.btn a{
     background: transparent;
-    color: #292F29;
-    border: 1px solid #292F29;
+    color: #76DB77;
+    border: 1px solid #76DB77;
     padding: 9px 20px;
     border-radius: 30px;
     line-height: 1.4;
@@ -82,9 +83,9 @@ nav ul li.btn a{
     margin-left: 80px;
 }
 nav ul li.btn:hover a{
-    border: 1px solid #292F29;
-    color: #76DB77;
-    background: #292F29;
+    border: 1px solid #76DB77;
+    color: #292F29;
+    background: #76DB77;
     transition: .4s;
 }
 .content{
@@ -115,7 +116,7 @@ nav ul li.btn:hover a{
 .content .main-text p{
     max-width: 100%;
     width: 480px;
-    color: #292F29;
+    color: #A3F5B7;
     line-height: 1.8;
     font-size: 18px;
     margin-bottom: 40px;
@@ -134,9 +135,9 @@ nav ul li.btn:hover a{
 }
 .content .main-text a:hover{
     transform: scale(1.2);
-    border: 2px solid #292F29;
+    border: 2px solid #a53ee0;
     background: transparent;
-    color: #292F29;
+    color: #a53ee0;
     transition: .4s;
 }
 .content .social{
@@ -147,14 +148,14 @@ nav ul li.btn:hover a{
 }
 .content .social a{
     display: inline-block;
-    color: #292F29;
+    color: #76DB77;
     margin-right: 25px;
     font-size: 24px;
 }
 .content .social a:hover{
     transform: scale(1.5);
     transition: .4s;
-    color: #0f110f;
+    color: #1cdd1c;
 }
 .image{
     position: absolute;
