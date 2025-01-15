@@ -15,8 +15,7 @@
 }
 
 body{
-    overflow-x: hidden;
-
+    overflow-x: auto;
 }
 .main-width
 {
@@ -159,15 +158,43 @@ nav ul li.btn:hover a{
 }
 .image{
     position: absolute;
-    width: 90%;
+    width: 15%;
     height: 65%;
     bottom: 0;
     right: 15%;
     text-align: right;
+    z-index: ;
 }
 .image img{
     height: 90%;
 }
+
+/* Estilo especifico para a página criar personagem */
+
+.prof-box {
+    position: relative;
+    margin: 15px 0 0 10px;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    color: #A3F5B7;
+}
+.prof-box::-webkit-scrollbar {
+    display: none;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #A3F5B7;
+}
+
+
 
 @media screen and (max-width: 1020px){
     .body{
