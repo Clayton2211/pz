@@ -171,6 +171,11 @@ nav ul li.btn:hover a{
 
 /* Estilo especifico para a página criar personagem */
 
+h3 {
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #A3F5B7;
+}
 .prof-box {
     position: relative;
     margin: 15px 0 0 10px;
@@ -188,12 +193,38 @@ nav ul li.btn:hover a{
     display: none;
 }
 
-h3 {
-    margin-top: 40px;
-    margin-left: 10px;
+.positivo-box{
+    position: relative;
+    margin: 15px 0 0 10px;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
     color: #A3F5B7;
 }
-
+.positivo-box::-webkit-scrollbar {
+    display: none;
+}
+.negativo-box{
+    position: relative;
+    margin: 15px 0 0 10px;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    color: #A3F5B7;
+}
+.negativo-box::-webkit-scrollbar {
+    display: none;
+}
 
 
 @media screen and (max-width: 1020px){
