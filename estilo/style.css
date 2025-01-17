@@ -191,7 +191,7 @@ h3 {
 .prof-box {
     position: relative;
     margin: 15px 0 0 10px;
-    width: 400px;
+    width: 370px;
     height: 400px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -207,7 +207,7 @@ h3 {
 .positivo-box{
     position: relative;
     margin: 15px 0 0 10px;
-    width: 400px;
+    width: 370px;
     height: 400px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -222,7 +222,7 @@ h3 {
 .negativo-box{
     position: relative;
     margin: 15px 0 0 10px;
-    width: 400px;
+    width: 370px;
     height: 400px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -249,7 +249,7 @@ h3 {
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
         text-decoration: none;
         color: #76DB77;
@@ -268,29 +268,25 @@ h3 {
     .content .main-text h1{
         display: flex;
         text-align: center;
+        font-size: 40px
     }
     .image{
         position: absolute;
         width:10%;
-        height:20%;
-        top:17%;
+        height:15%;
+        top:15%;
         bottom: 0;
         right: 29%;
         text-align: right;
     }
-    .image img{
-        height: 68%;
-    }
+    
     .image-custom{
         position: absolute;
         width:10%;
-        height:20%;
-        top:11%;
+        height:15%;
+        top:10%;
         bottom: 0;
         right: 28%;
         text-align: right;
-    }
-    .image-custom img{
-        height: 43%;
     }
 }
