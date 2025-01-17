@@ -270,6 +270,15 @@ h3 {
         text-align: center;
         font-size: 40px
     }
+    .prof-box{
+        margin: 15px 0 0 0px;
+    }
+    .positivo-box{
+        margin: 15px 0 0 0px;
+    }
+    .negativo-box{
+        margin: 15px 0 0 0px;
+    }
     .image{
         position: absolute;
         width:10%;
