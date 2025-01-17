@@ -148,7 +148,7 @@ nav ul li.btn:hover a{
 .content .social a{
     display: inline-block;
     color: #76DB77;
-    margin-right: 25px;
+    margin-right: 20px;
     font-size: 24px;
 }
 .content .social a:hover{
@@ -296,5 +296,17 @@ h3 {
         bottom: 0;
         right: 28%;
         text-align: right;
+    }
+    .content .main-text a:hover{
+        transform: none;
+        border: 2px solid #a53ee0;
+        background: transparent;
+        color: #a53ee0;
+        transition: .4s;
+    }
+    .content .social a:hover{
+        transform: none;
+        transition: .4s;
+        color: #1cdd1c;
     }
 }
