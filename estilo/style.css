@@ -168,6 +168,18 @@ nav ul li.btn:hover a{
 .image img{
     height: 90%;
 }
+.image-custom{
+    position: absolute;
+    width: 15%;
+    height: 60%;
+    bottom: 20%;
+    right: 12%;
+    text-align: right;
+    z-index: ;
+}
+.image-custom img{
+    height: 55%;
+}
 
 /* Estilo especifico para a página criar personagem */
 
@@ -243,10 +255,42 @@ h3 {
         color: #76DB77;
         margin: 10px;
     }
-    .nav{
+    nav ul li{
+        list-style: none;
+        display: block;
+        text-align: left;
+        margin: 15px;
+    }
+    nav ul li.btn a{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .content .main-text h1{
         display: flex;
-        justify-content: center;
-        align-items: center;
         text-align: center;
+    }
+    .image{
+        position: absolute;
+        width:10%;
+        height:20%;
+        top:17%;
+        bottom: 0;
+        right: 29%;
+        text-align: right;
+    }
+    .image img{
+        height: 68%;
+    }
+    .image-custom{
+        position: absolute;
+        width:10%;
+        height:20%;
+        top:11%;
+        bottom: 0;
+        right: 28%;
+        text-align: right;
+    }
+    .image-custom img{
+        height: 43%;
     }
 }
